@@ -26,10 +26,6 @@ public class choosingOperation2 {
         Label chooseOperation = new Label();
         chooseOperation.setText("Choose an operation");
         Label history1=new Label();
-        Label history2=new Label();
-        Label history3=new Label();
-        Label history4=new Label();
-        Label history5=new Label();
         history1.setText("");
         
         Button dep = new Button();

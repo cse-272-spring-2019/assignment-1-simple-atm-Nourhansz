@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Codes {
 
-    static Scanner scan = new Scanner(System.in);
     private static double balance = 0;
 
     Deposit deposit;
