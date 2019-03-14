@@ -14,7 +14,6 @@ public class Deposit {
     choosingOperation2 choosingOperation;
     Stage stage;
     Codes codes=new Codes();
-    DepAmount depamount;
     int pointer;
     String[] history=new String[10];
 
