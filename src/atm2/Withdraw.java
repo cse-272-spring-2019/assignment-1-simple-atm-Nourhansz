@@ -15,7 +15,6 @@ public class Withdraw {
     choosingOperation2 choosingOperation;
     Stage stage;
     static Scanner scan = new Scanner(System.in);
-    WithAmount withamount;
     Codes codes = new Codes();
     int pointer;
     String[] history = new String[10];
@@ -52,7 +51,7 @@ public class Withdraw {
             popup1.setText("Your new Balance is " + bal);
                 popup2.setText("Your operation is successful");
             } else {
-                popup2.setText("Sorry cannot do operation");
+                popup2.setText("Sorry cannot do this operation");
             }
 
         });
